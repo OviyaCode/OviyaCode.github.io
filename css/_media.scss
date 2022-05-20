@@ -2,7 +2,6 @@
 {
     header{
         padding: 0;
-        // border: 1px solid #f00;
     }
     header .right-header{
         padding-left: 2rem !important;
@@ -21,6 +20,7 @@
             font-size: 1rem !important;
         }
     }
+    
     .theme-btn{
         width: 50px;
         height: 50px;
@@ -107,6 +107,13 @@
         .right-contact{
             margin-left: 0;
             margin-top: 2.5rem;
+           .contact-form{
+               margin-bottom: 6rem;
+               .submit-btn{
+                   justify-content: center;
+               }
+           }
+           
             .in-control-2{
                 flex-direction: column;
             }
