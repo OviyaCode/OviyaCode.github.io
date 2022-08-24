@@ -617,7 +617,26 @@ section{
     display:flex;
     align-self: flex-start;    
 }
+.send-btn{
+    border-radius: 30px;
+    padding: 1em;
+    width: 300px;
+    color: var(--color-secondary);
+    font-size: 1em;
+    position: relative;
+    border:1px solid var(--color-secondary);
+    overflow: hidden;
+    background-color: transparent;
 
+    &:hover{
+        color: var(--color-white);
+        width: 350px;
+        height: 100%;
+        background-color: var(--color-secondary);
+        transform: translateX(0);
+        transition: all .4s ease-in-out;  
+   }
+}
 .main-btn{
     border-radius: 30px;
     color: var(--color-secondary);
