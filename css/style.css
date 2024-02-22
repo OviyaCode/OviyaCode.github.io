@@ -583,6 +583,7 @@ section {
   font-size: 1em;
   position: relative;
   border: 1px solid var(--color-secondary);
+  overflow: hidden;
   background-color: transparent;
 }
 .send-btn:hover {
@@ -810,23 +811,5 @@ section {
   }
   .main-title h2 {
     font-size: 3rem;
-  }
-  .portfolios .portfolio-item .overlay {
-    height: 90%;
-  }
-  .portfolios .portfolio-item .overlay h3 {
-    font-size: 0.7em;
-    margin: 1em;
-  }
-  .portfolios .portfolio-item .overlay .icons {
-    font-size: 1em;
-  }
-  .portfolios .portfolio-item .overlay .icons .icon {
-    width: 25px;
-    height: 25px;
-    margin-bottom: 0.5em;
-  }
-  .portfolios .portfolio-item .overlay .icons .icon i {
-    font-size: 0.5em;
   }
 }/*# sourceMappingURL=style.css.map */
